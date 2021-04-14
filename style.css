@@ -1,6 +1,28 @@
-.squareone {
+#hwajin {
     background-color:blue;
-    width:200px;
+    width:auto;
     height:50px;
-    border:red 2px;
+    top:50vh;
+    left:50vw;
+    position:absolute;
+}
+
+#everyday {
+    background-color:red;
+    border:30px red solid;
+    width:auto;
+    height:auto;
+    top:10vh;
+    left:10vw;
+    position:absolute;
+    object-position: center;
+}
+
+#wholepicture {
+    background-color:orange;
+    width:auto;
+    height:10px;
+    top:10vh;
+    left:50vw;
+    position:absolute;
 }
