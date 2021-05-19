@@ -1,28 +1,64 @@
+@font-face {
+    font-family: minipax;
+    src: url("Minipax-Regular.eot");
+    src: url("Minipax-Regular.woff");
+    src: url("Minipax-Regular.woff2");
+}
+
+html {position:relative;}
+
+body {font-family:minipax;}
+
+.zoomButton {position:sticky;bottom:10px;width:100px;background-color:yellow;}
+
+
 #hwajin {
     background-color:blue;
-    width:auto;
-    height:50px;
-    top:50vh;
-    left:50vw;
-    position:absolute;
+    width:fit-content;
+    height:fit-content;
+    position:relative;
+    object-position: center;
+    margin:50px;
+
+    
 }
 
 #everyday {
     background-color:red;
-    border:30px red solid;
-    width:auto;
-    height:auto;
-    top:10vh;
-    left:10vw;
-    position:absolute;
+    border:10px red solid;
+    width:fit-content;
+    height:fit-content;
+    position:relative;
     object-position: center;
+
+    
 }
 
-#wholepicture {
-    background-color:orange;
-    width:auto;
-    height:10px;
-    top:10vh;
-    left:50vw;
+
+.foo {width:100px;height:400px;background-color:lime;}
+
+
+
+
+
+
+#myDIV {
+    width: 500px;
+    height: 500px;
+    background-color: lightblue;
+    visibility:hidden;
+    z-index:101;
+  }
+
+  
+  #red {width:100px;height:100px;background-color:red;visibility:visible;z-index:100;}
+  
+  #background {position:absolute;background-color:yellow; z-index:100;height:100px;width:100px;}
+
+
+
+.dropdown {
+    display:none;
+    background-color:none;
     position:absolute;
 }
